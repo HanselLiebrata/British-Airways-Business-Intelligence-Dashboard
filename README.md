@@ -163,7 +163,7 @@ pip install -r requirements.txt
 
 ## Data Sources & Methodology
 
-- **Original Dataset:** Kaggle airline booking data (50,000 records)
+- **Original Dataset:** [British Airways Customer Booking Data](https://www.kaggle.com/datasets/patelparth3399/british-airways-customer-booking) (50,000 records)
 - **Data Enhancement:** Feature engineering and business metric calculation
 - **Analysis Scope:** 24 features covering customer demographics, booking behavior, and service utilization
 - **Validation:** Cross-validation of clustering results and business logic verification
