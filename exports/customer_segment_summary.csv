@@ -1,0 +1,5 @@
+customer_segment,segment_name,Total_Bookings,Completion_Rate,Avg_Risk_Score,Avg_Premium_Services,Avg_Value_Score
+0,Premium_Business_Travelers,15835,0.161,32.556,2.297,260.036
+1,Budget_Conscious_Travelers,5709,0.14,39.868,1.683,205.456
+2,Budget_Long_Term_Planners,22658,0.139,49.625,0.639,154.292
+3,Premium_Family_Travelers,5798,0.167,33.549,1.584,467.831

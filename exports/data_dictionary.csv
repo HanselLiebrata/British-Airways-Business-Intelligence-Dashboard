@@ -1,0 +1,25 @@
+Column_Name,Description,Business_Use
+num_passengers,Number of passengers in booking (1-8),"Group size analysis, family vs business travel"
+sales_channel,"Channel used for booking (Online, Mobile, Agent, Phone)",Channel performance optimization
+trip_type,"Trip type (Round Trip, One Way)",Trip complexity impact on completion
+purchase_lead,Days between booking and departure (0-365),Booking window optimization
+length_of_stay,Length of stay at destination in days,Trip duration impact analysis
+flight_hour,Flight departure hour (0-23),Peak hour performance analysis
+flight_day,Day of week for flight departure,Seasonal demand patterns
+route,Flight route code (origin-destination),Route performance analysis
+booking_origin,Country where booking was made,Geographic market analysis
+wants_extra_baggage,Customer selected extra baggage (0/1),Premium service adoption analysis
+wants_preferred_seat,Customer selected preferred seat (0/1),Seat preference impact
+wants_in_flight_meals,Customer selected in-flight meals (0/1),Meal service impact
+flight_duration,Flight duration in minutes,Flight length impact on completion
+booking_complete,"Booking completion status (1=completed, 0=abandoned)",PRIMARY TARGET METRIC - Revenue optimization
+premium_services_count,Total premium services selected (0-3),Premium service bundle analysis
+booking_timing_category,Booking timing category (Same_Day to Long_Term),Marketing campaign timing
+customer_value_score,Composite customer value score (0-500+),Customer lifetime value estimation
+is_weekend_flight,Flight scheduled for weekend (True/False),Operational planning
+is_peak_hour,Flight during peak hours 7-9am or 5-7pm (True/False),Resource allocation optimization
+customer_segment,Customer segment number (0-3),Segmentation strategy
+segment_name,Business name for customer segment,Targeted marketing campaigns
+risk_score,Risk score for booking abandonment (0-100),INTERVENTION PRIORITIZATION - Risk management
+risk_category,Risk category (Low/Medium/High Risk),Intervention strategy deployment
+analysis_date,Date when analysis was performed,Data freshness tracking
